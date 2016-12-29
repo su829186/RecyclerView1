@@ -29,7 +29,13 @@ public class MainActivity extends AppCompatActivity {
         EventBus.getDefault().register(this);
         initData();
         initView();
+        init();
     }
+
+    private void init() {
+
+    }
+
     private void initData() {
         data=new ArrayList<>();
         for (int i = 0; i < 100; i++) {
